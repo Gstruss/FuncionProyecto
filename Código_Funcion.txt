@@ -1,0 +1,12 @@
+CREATE FUNCTION TomaAgentes(dato int) 
+RETURNS varchar(20) DETERMINISTIC
+BEGIN
+    declare info int;
+    set info=(select tomainfo.tomaA from tomainfo);
+    if dato >= 50
+    then
+    return 'Estado Moderado';
+    else
+    return 'Estado Favorable';
+    end if;
+END
