@@ -1,4 +1,4 @@
-# FuncionProyecto. Descripción del propósito de la función y explicación de la misma.
+# FuncionProyecto
 
 El propósito de la función es explicarle al usuario qué significa la toma de información que 
 llega con respecto a contaminantes del aire por medio de un sensor.
